@@ -330,3 +330,178 @@ footer {
  footer div a:hover {
     color: rgb(80, 78, 78);
  }
+
+
+/* ============================== RESPONSIVE DESIGN (MEDIA QUERY) ============================== */
+
+@media only screen and (max-width: 600px){
+    #headerNavigation {
+        flex-direction: column;
+        padding: 3px 0 10px 0;
+        align-items: center;
+    }
+
+    #logo {
+        padding-bottom: 5px;
+    }
+
+    #title {
+        font-size: x-large;
+    }
+
+    #subtitle {
+        font-size: medium;
+    }
+
+    #headerTitle {
+        text-align: center;
+        margin: 20px auto 10px auto;
+        width: 90%;
+    }
+
+    #article img {
+        width: 400px;
+        height: 212px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+    #ContactUs {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 0;
+        margin: 0 5px 30px 5px;
+    }
+
+    #namaKonsumen h3{
+        
+        color: #3b4754;
+        margin-top: 30px;
+        padding: 0;
+        font-size: large;
+        width: 300px;
+        margin: 0 auto 0 auto;
+        
+    }
+    
+    #namaKonsumen h5 {
+        padding: 5px;
+        color: #77838f;
+        font-style: italic;
+        font-size: medium;
+        text-align: center;
+    }
+    
+    #person {
+        display: flex;
+        align-items: center;
+        margin: 0 auto 0 auto;
+        gap: 3px;
+        height: 60px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        border-bottom: 2px solid #e6f1f0;
+        width: 350px;
+    }
+    
+    #fotoKonsumen {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        padding: 0;
+    }
+    
+    #namaKonsumen {
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+    }
+
+    #namaKonsumen h3 {
+        color: #3b4754;
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    
+    #namaKonsumen h5 {
+        color: #b1b7bf;
+        font-style: italic;
+        font-weight: lighter;
+        margin: 0;
+        padding: 0;
+        text-align: left; 
+    }
+    
+    .benefit {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+        width: 350px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    
+    .poin {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0px 0 0 0;
+        padding: 0;
+        gap: 10px;
+        height: 50px;
+
+    }
+    
+    .poin h3 {
+        background: #e6f1f0;
+        width: 70px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    .poin p {
+        height: 50px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        color: #77838f;
+    }
+    
+    #article {
+        margin-bottom: 50px;
+    }
+    
+    #form {
+        background-color: #dcf3f0;
+        border-radius: 5px;
+        padding: 35px 35px 3px 35px;
+        color: #3b4754;
+        height: 560px;
+        width: 280px;
+        box-sizing: border-box;
+    }
+
+    #callUs {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 30px 50px 30px;
+        align-items: center;
+    }
+    
+    #callUs h1 {
+        text-align: center;
+        font-size: xx-large;
+        color: #3b4754;
+    }
+    
+    #callus p {
+        text-align: center;
+        color: #77838f;
+    }
+} 

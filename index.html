@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Groceries</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
 </head>
 <body>
     <header>
@@ -57,28 +58,40 @@
                     </div>
                 </div>
             </article>
-            <section id="form">
+            <form id="form" action="/">
                 <h2 class="tittleSubtitle">Contact Us</h2>
                 <h5 class="tittleSubtittle">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</h5>
-                <label for="name" class="label">Your Name: </label><br>
-                <input class="input" id="name" name="name" type="text" placeholder="First and last name">
-                <br><br><label  for="email" class="label" >Email Address: </label><br>
-                <input class="input" id="email" name="email" type="email" placeholder="example@email.com">
-                <br><br><label  for="phonenumber" class="label">Phone Number: </label><br>
-                <input class="input" id="phonenumber" name="phonenumber" inputmode="numeric" required>
-                <br><br><label  for="option">What are you interested in?</label><br>
-                <select name="option" id="option">
-                    <option value="Fruits">Fruits</option>
-                    <option value="Vegetables">Vegetables</option>
-                    <option value="Meat">Meat</option>
-                    <option value="Bread & Bakery">Bread & Bakery</option>
-                    <option value="Snacks">Snacks</option>
-                    <option value="Beverages">Beverages</option>
-                </select>
-                <br><br><label  for="message" class="label">Your Message: </label><br>
-                <input id="message" name="message" type="text">
-                <br><br><input id="submit"  type="submit" value="Send">
-            </section>
+                <div class="input-control">
+                    <label for="name" class="label">Your Name: </label><br>
+                    <input class="input" id="name" name="name" type="text" placeholder="First and last name">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <br><label  for="email" class="label" >Email Address: </label><br>
+                    <input class="input" id="email" name="email" type="email" placeholder="example@email.com">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <br><label  for="phonenumber" class="label">Phone Number: </label><br>
+                    <input class="input" id="phonenumber" name="phonenumber" inputmode="numeric" required>
+                </div>
+                <div class="input-control">
+                    <br><label  for="option">What are you interested in?</label><br>
+                    <select name="option" id="option">
+                        <option value="Fruits">Fruits</option>
+                        <option value="Vegetables">Vegetables</option>
+                        <option value="Meat">Meat</option>
+                        <option value="Bread & Bakery">Bread & Bakery</option>
+                        <option value="Snacks">Snacks</option>
+                        <option value="Beverages">Beverages</option>
+                    </select>
+                </div>
+                <div class="input-control">
+                    <br><label  for="message" class="label">Your Message: </label><br>
+                    <input id="message" name="message" type="text">
+                </div>
+                <br><br><button type="submit">Send</button>
+            </form>
         </section>
 <!-- ============================== OUR PACKAGE ============================== -->
         <section id="ourpackage">
