@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     padding: 15px 50px 15px 60px;
     border-bottom: 2px solid rgb(223, 223, 223);
-    background-image: url(img/header.jpg);
+    background-image: url(/img/header.jpg);
     background-position: center;
 }
 
@@ -191,7 +191,7 @@ header {
 #ourpackage_title {
     display: flex;
     width: 100%;
-    background-image: url(img/ourpackage.jpg);
+    background-image: url(/img/ourpackage.jpg);
     background-position: center;
     color: #3b4147;
     font-size: x-large;
@@ -296,7 +296,7 @@ footer {
     flex-direction: column ;
     align-items: center;
     gap: 10px;
-    background-image: url(img/footer.jpg);
+    background-image: url(/img/footer.jpg);
     background-position: center;
  }
 
